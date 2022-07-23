@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+
+    background: url("../img/pattern.png");
+
+    font-family: tahoma;
+
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+p {
+    padding-left: 5px;
+}
+
+
+ul {
+    padding-left: 25px;
+}
+
+
+/* Card */
+.card {
+    width: 100%;
+    max-width: 300px;
+
+    display: block;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #ccc;
+    border-radius: 10px;
+
+    padding: 5px;
+}
+
+
+.card__name {
+    font-size: 23px;
+    text-align: center;
+    color: rgb(5, 80, 192);
+}
+
+
+.card__title {
+    font-size: 18px;
+    color: rgb(161, 10, 149);
+}
+
+
+/* Image */
+.img {
+    width: 250px;
+    height: 250px;
+
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
